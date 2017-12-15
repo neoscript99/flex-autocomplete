@@ -129,7 +129,7 @@
         [Bindable(event="change")]
         public function get selectedItems():Array
         {
-            return _selectedItems.toArray();
+            return _selectedItems.source;
         }
 
         [Bindable(event="change")]
